@@ -4,8 +4,8 @@ function SourceCard({source}) {
     console.log(source)
     return (
         <div className="sourceCard">
-            <strong>{source.name}</strong>
-            <p>{source.description}</p>
+            <strong>{source?.name}</strong>
+            <p>{source?.description}</p>
         </div>
     )
 }
